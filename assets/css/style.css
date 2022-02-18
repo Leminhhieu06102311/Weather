@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.active {
+    display: none;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f6bec1;
+}
+.weather {
+    width: 40rem;
+    border-radius: 1rem;
+    padding: 3rem 0;
+    height: 56rem;
+    margin: 5rem auto;
+    background-color: #081b24;
+}
+
+.weather__search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.weather__search-input {
+    border: none;
+    outline: none;
+    padding: 1rem;
+    color: #fff;
+    font-size: 2rem;
+    background-color:#081b24;
+    /* position: relative; */
+}
+.weather__search i {
+    color:#6a8da0;
+    padding: 0 1rem;
+    font-size: 2rem;
+}
+.weather__location {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    color:#fff;
+    font-size: 2rem;
+}
+
+.weather__status {
+
+}
+.weather__status-img {
+    display: flex;
+    justify-content: center;
+}
+
+.weather__status img {
+    width: 30%;
+}
+.weather__status-title {
+    color: #fff;
+    font-size: 2rem;
+    display: inline-block;
+    border-radius: 3rem;
+    background-color: #363361;
+    margin: 1rem 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    padding: 1rem 1.4rem;
+
+}
+.weather__temperature {
+    text-align: center;
+}
+
+.weather__temperature-degree {
+    font-size: 9rem;
+    color: #fff;
+    font-weight: 500;
+    margin: 2rem 0;
+}
+
+.weather__parameter {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.weather__parameter-windy {
+    display: flex;
+    font-size: 2rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+.weather__parameter-water i,
+.weather__parameter-mbar i,
+.weather__parameter-windy i {
+    margin-right: 1rem;
+    color:#6c86aa;
+
+}
+.weather__parameter-water {
+    display: flex;
+    font-size: 2rem;
+    padding: 1.5rem;
+    align-items: center;
+
+}
+.weather__parameter-mbar {
+    display: flex;
+    font-size: 2rem;
+    padding: 1rem;
+    align-items: center;
+}
